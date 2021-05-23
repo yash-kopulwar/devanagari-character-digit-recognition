@@ -1,4 +1,4 @@
-# devanagari-digit-classification
+# devanagari-character-recognition
 
 ## Contents
 * [Overview](#overview)
@@ -15,12 +15,5 @@ A simple image classification model to recognize Hindi handwritten digits and al
 ## Motivation
 
 ## Dataset
-Installing CPAR
-
-    $ pip install cpar
-
-Importing the datset
-
-    from cpar.char import load_data
-    train_x, test_y, train_y, test_y = load_data()
-    
+The dataset was downloaded from Kaggle<br>
+Website: [devanagari-character-set](https://www.kaggle.com/rishianand/devanagari-character-set)
