@@ -5,7 +5,7 @@
 * [Motivation](#motivation)
 * [Dataset](#dataset)
 
-# Overview
+## Overview
 A simple image classification model to recognize Hindi handwritten digits and alphabets
 
 <p align="center">
