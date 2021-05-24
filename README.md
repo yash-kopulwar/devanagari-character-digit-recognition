@@ -5,9 +5,13 @@ Character recognition of Hindi handwritten single characters and digits using CN
 * [Overview](#overview)
 * [Motivation](#motivation)
 * [Dataset](#dataset)
+* [Setup](#setup)
+* [Repository info](#repository-info)
+* [Model](#model)
+* [What did I learn](#what-did-i-learn)
 
 ## Overview
-A simple image recognition model to recognize Hindi handwritten character and digits from an image of size (32, 32, 1).
+A simple image recognition model to recognize Hindi handwritten character and digits from an image of size (32, 32).
 
 <p align="center">
   <img src="https://www.researchgate.net/profile/Kiran-Ravulakollu/publication/261876337/figure/fig1/AS:340899369373704@1458288151610/Samples-of-CPAR-2012-numeral-datasets.png" width="400">
@@ -25,9 +29,14 @@ Windows 10<br>
 python 3.7<br>
 tensorflow-gpu==2.1.0
 
+## Repository info
+devanagari_character_digit_recognition.ipny - jupyter notebook
+devanagari_character_digit_recognition_model.h5 - saved model after 30 epochs
+model_layers.png - layers used in my model
+
 ## Model
 <p align="center">
-  <img src="" width="400">
+  <img src="model_layers.png" width="400">
 </p>
 
 ## What did I learn?
