@@ -1,4 +1,5 @@
-# devanagari-character-recognition
+# devanagari-character-digit-recognition
+Character recognition of Hindi handwritten single characters and digits using CNN.
 
 ## Contents
 * [Overview](#overview)
@@ -6,14 +7,38 @@
 * [Dataset](#dataset)
 
 ## Overview
-A simple image classification model to recognize Hindi handwritten digits and alphabets
+A simple image recognition model to recognize Hindi handwritten character and digits from an image of size (32, 32, 1).
 
 <p align="center">
   <img src="https://www.researchgate.net/profile/Kiran-Ravulakollu/publication/261876337/figure/fig1/AS:340899369373704@1458288151610/Samples-of-CPAR-2012-numeral-datasets.png" width="400">
 </p>
 
 ## Motivation
+The image classification problem with MNIST image dataset is considered a very standard problem to learn and practice how to develop, evaluate and use the deep neural networks. So, after completing that project, I worked on classifying devanagari characters using convolutional layers to understand the effects of changing the hyperparameters on the accuracy and the performance of a CNN model.
 
 ## Dataset
 The dataset was downloaded from Kaggle<br>
 Website: [devanagari-character-set](https://www.kaggle.com/rishianand/devanagari-character-set)
+
+## Setup
+Windows 10<br>
+python 3.7<br>
+tensorflow-gpu==2.1.0
+
+## Model
+<p align="center">
+  <img src="" width="400">
+</p>
+
+## What did I learn?
+#### Problem: Loss function was decreasing but oscillating
+Solution:<br>
+Reducing the learning rate, use momentum on SGD (or better, use momentum based optimizers like Adam)
+#### Problem: Difference in final values of valdaition and training accuracy
+Solution:<br>
+Underfitting - val and train accuracy low
+Overfitting - high train accuracy, low val accuracy
+Good fit - val accuracy close to train accuracy and both are high
+Unknown fit - high val accuracy, low train accuracy
+
+My model was facing overfitting, so I increased the batch size and added dropout layers.
