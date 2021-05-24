@@ -30,8 +30,8 @@ python 3.7<br>
 tensorflow-gpu==2.1.0
 
 ## Repository info
-devanagari_character_digit_recognition.ipny - jupyter notebook
-devanagari_character_digit_recognition_model.h5 - saved model after 30 epochs
+devanagari_character_digit_recognition.ipny - jupyter notebook<br>
+devanagari_character_digit_recognition_model.h5 - saved model after 30 epochs<br>
 model_layers.png - layers used in my model
 
 ## Model
@@ -45,9 +45,9 @@ Solution:<br>
 Reducing the learning rate, use momentum on SGD (or better, use momentum based optimizers like Adam)
 #### Problem: Difference in final values of valdaition and training accuracy
 Solution:<br>
-Underfitting - val and train accuracy low
-Overfitting - high train accuracy, low val accuracy
-Good fit - val accuracy close to train accuracy and both are high
-Unknown fit - high val accuracy, low train accuracy
+Underfitting - val and train accuracy low<br>
+Overfitting - high train accuracy, low val accuracy<br>
+Good fit - val accuracy close to train accuracy and both are high<br>
+Unknown fit - high val accuracy, low train accuracy<br>
 
 My model was facing overfitting, so I increased the batch size and added dropout layers.
