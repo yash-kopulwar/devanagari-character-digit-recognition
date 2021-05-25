@@ -6,7 +6,7 @@ Character recognition of Hindi handwritten single characters and digits using CN
 * [Motivation](#motivation)
 * [Dataset](#dataset)
 * [Setup](#setup)
-* [Repository info](#repository-info)
+* [Repository files](#repository-files)
 * [Model](#model)
 * [What did I learn](#what-did-i-learn)
 
@@ -29,7 +29,7 @@ Windows 10<br>
 python 3.7<br>
 tensorflow-gpu==2.1.0
 
-## Repository info
+## Repository files
 devanagari_character_digit_recognition.ipny - jupyter notebook<br>
 devanagari_character_digit_recognition_model.h5 - saved model after 30 epochs<br>
 model_layers.png - layers used in my model
