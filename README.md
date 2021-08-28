@@ -31,7 +31,7 @@ tensorflow-gpu==2.1.0
 
 ## Repository files
 devanagari_character_digit_recognition.ipny - jupyter notebook<br>
-devanagari_character_digit_recognition_model.h5 - saved model after 30 epochs<br>
+saved_model.h5 - saved model after 30 epochs<br>
 model_layers.png - layers used in my model
 
 ## Model
